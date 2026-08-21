@@ -1,0 +1,7 @@
+{
+  "_comment": "Mapping mula sa item name sa TW/AGT raw file papunta sa item code sa ND SOH report.",
+  "aliases": {
+    "BUDS 4 AIR": "BD04 Air",
+    "TSP-W03A": "TSP-WP03A"
+  }
+}

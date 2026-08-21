@@ -1,0 +1,9 @@
+{
+  "_comment": "drop = hindi isinasama sa report. fold = isinasama ang stock sa ibang item.",
+  "drop": [
+    "Mega Pad Pro KB"
+  ],
+  "fold": {
+    "MegaPad 2": "T1103 256+8"
+  }
+}
