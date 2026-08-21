@@ -1,0 +1,18 @@
+{
+  "_comment": "Mapping from the item name in the TW/AGT raw file to the item code used in the ND SOH report. The app adds entries here when you answer an unmatched item.",
+  "aliases": {
+    "BUDS 4 AIR": "BD04 Air",
+    "T1002": "T1002 256+4"
+  },
+  "_notes": {
+    "BUDS 4 AIR": "TW raw puts the market name in the Item column and the code in Market Name - they are swapped. VALIDATED 6 weeks (Jul 27 - Aug 20): 'BD04 Air' is in every roster, 'BUDS 4 AIR' is in none.",
+    "T1002": "TW sometimes writes a bare T1002 with no variant. VALIDATED 6 weeks: T1002 128+4 was 0 in every report from Jul 27 to Aug 10 while T1002 256+4 held all the stock (520 on Jul 27, then 6,000). 'T1002' itself is never a roster row. WATCH: on Aug 20 the split changed to 3,000 / 5,480 - and there TW wrote the two variants as separate rows, so the bare form has so far only appeared when the stock was all 256+4. If a bare T1002 ever shows up while 128+4 also has stock, stop and ask TW how it splits.",
+    "TSP-W03A / TSP-WP03A": "Same watch, spelled two ways. Roster used TSP-W03A for 5 straight weeks (Jul 27 - Aug 10) then switched to TSP-WP03A on Aug 20. TW raw writes TSP-W03A; AGT raw writes TSP-WP03A. Declared as an equivalence group so the app maps onto whichever form the current roster uses."
+  },
+  "equivalents": [
+    [
+      "TSP-W03A",
+      "TSP-WP03A"
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "_comment": "drop = never included. fold = always rolls into another item. ask = always flagged for a decision, never automatic.",
+  "drop": [
+    "Mega Pad Pro KB",
+    "MegaPad 2"
+  ],
+  "fold": {},
+  "ask": [],
+  "_notes": {
+    "Mega Pad Pro KB": "You delete this from the TW raw by hand. VALIDATED 6 weeks: it is never a roster row in any report from Jul 27 to Aug 20. Aug 10 confirmed the exclusion exactly (T1201 256+8 raw 4,329 = report 4,329, with the KB's 4,343 left out).",
+    "MegaPad 2": "Keyboard for the MegaPad 2 tablet (T1103). Never a roster row in 6 weeks. Set to drop on the evidence: your own Aug 17 TW Source pivot has no MegaPad 2 row at all (you deleted it), and the Aug 10 report excluded it (T1103 256+8 raw 582 = report 582). The Aug 20 report DID add it (raw 332 -> report 867, +535), which looks like a slip: the raw stock fell from 582 to 332 that week while the report rose from 582 to 867. The excluded quantity still shows in the Unit accounting panel every run."
+  }
+}
